@@ -11,6 +11,7 @@
   width: 70%;
   margin: 0 auto;
   max-width: 1200px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .clearfix::after{
@@ -30,18 +31,74 @@ section:nth-child(even){
 
 
 /* 
+  UTILITIES 
+*/
+nav ul{
+  text-align: center;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn{
+  padding: 8px 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+.btn:hover{
+  box-shadow: 0 3px 10px black;
+  color: #404EED;
+}
+
+
+.btn.small{
+  font-size: 12px;
+}
+
+.btn.big{
+  font-size: 18px;
+}
+
+ 
+
+/* 
   HEADER 
 */
 header{
   height: 70px;
   background-color: #3260E1;
+  padding-top: 20px;
 }
 
-.content-header{
-  height: 70px;
-  background-color: white;
+header .content-header img{
+  float: left;
 }
 
+nav{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content-header .btn.small{
+  float: right;
+}
 
 
 
