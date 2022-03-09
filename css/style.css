@@ -33,14 +33,12 @@ section:nth-child(even){
 /* 
   UTILITIES 
 */
-nav ul{
-  text-align: center;
+nav{
+  font-size: 14px;
 }
 
-nav ul li{
+ul li{
   list-style: none;
-  display: inline-block;
-  padding: 5px 10px;
   text-transform: capitalize;
 }
 
@@ -98,14 +96,23 @@ header .content-header img{
   float: left;
 }
 
-nav{
+header nav{
   width: 60%;
   margin: 0 auto;
-  font-size: 14px;
   font-weight: 400;
 }
 
-.content-header .btn.small{
+header ul li{
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: capitalize;
+}
+
+header nav ul{
+  text-align: center;
+}
+
+header .content-header .btn.small{
   float: right;
 }
 
@@ -173,9 +180,6 @@ nav{
 
 .container .content-top, .content-middle, .content-bottom{
   padding: 10px 0;
-}
-
-.container .content-top, .content-bottom{
   text-align: center;
 }
 
@@ -192,6 +196,7 @@ nav{
 }
 
 
+
 /* 
   FOOTER 
 */
@@ -201,7 +206,6 @@ footer{
 
 footer section, aside{
   padding: 10px;
-  height: 500px;
 }
 
 footer section{
@@ -215,6 +219,47 @@ footer aside{
 }
 
 .footer-bottom{
-  height: 70px;
   margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #495781;
 }
+
+footer .footer-bottom img{
+  float: left;
+}
+
+footer .footer-bottom .btn.small{
+  float: right;
+  background-color: #8FA1E1;
+  color: white;
+}
+
+footer section h3{
+  font-size: 1.6rem;
+  color: #7189DA;
+  padding-bottom: 20px;
+}
+
+footer section img{
+  width: 20px;
+}
+
+footer section span{
+  font-size: 14px;
+  color: white;
+}
+
+footer section ul li{
+  margin-top: 20px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+footer aside ul li{
+  padding: 5px;
+}
+
+footer aside nav ul li .first{
+  color: #7189DA;
+}
+
