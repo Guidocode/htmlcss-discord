@@ -78,6 +78,11 @@ a{
 p{
   line-height: 25px;
 }
+
+h2{
+  font-size: 2.5rem;
+  padding: 30px 0;
+}
  
 
 /* 
@@ -166,18 +171,25 @@ nav{
   width: 40%;
 }
 
-.text h2{
-  font-size: 3rem;
-  padding: 30px 0;
-}
-
 .container .content-top, .content-middle, .content-bottom{
-  height: 150px;
-  background-color: darkblue;
   padding: 10px 0;
-  /* margin: 30px; */
 }
 
+.container .content-top, .content-bottom{
+  text-align: center;
+}
+
+.content-bottom h2{
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.content-bottom .btn.big{
+  display: inline-block;
+  margin: 20px;
+  background-color: #8FA1E1;
+  color: white;
+}
 
 
 /* 
@@ -189,7 +201,6 @@ footer{
 
 footer section, aside{
   padding: 10px;
-  background-color: darkblue;
   height: 500px;
 }
 
@@ -205,6 +216,5 @@ footer aside{
 
 .footer-bottom{
   height: 70px;
-  background-color: darkblue;
   margin-top: 20px;
 }
